@@ -244,4 +244,4 @@
   new PureCounter();
 
 })()
-// Added js lesson #4
+// Added js lesson #5
