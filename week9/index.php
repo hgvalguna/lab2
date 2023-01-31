@@ -406,7 +406,7 @@
       <h2>Contact</h2>
     </div>
 
-    <a class="nav-link" href="formvalidation.php">References</a>
+    <a class="nav-link" href="formvalidation.php">Form</a>
 <!-- End Contact Section -->
 
 
