@@ -46,6 +46,7 @@
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#portfolio">Images</a></li>
           <li><a class="nav-link" href="#reference">References</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -365,8 +366,7 @@
     </div>
   </section><!-- End Portfolio Section -->
 
-  <!-- ======= Contact Section ======= -->
-<!-- End Contact Section -->
+  
 
   <!-- ======= Resume Section ======= -->
   <section id="reference" class="References">
@@ -397,6 +397,17 @@
 
     </div>
   </section><!-- End Resume Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id ="contact" class="Contact">
+    <div class="container">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <a class="nav-link" href="formvalidation.php">References</a>
+<!-- End Contact Section -->
 
 
   <!-- Vendor JS Files -->
