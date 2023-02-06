@@ -1,6 +1,7 @@
 
 <!DOCTYPE HTML>  
 <html>
+<link href="assets/css/style.css" rel="stylesheet">
 <head>
 <style>
 .error {color: #FF0000;}

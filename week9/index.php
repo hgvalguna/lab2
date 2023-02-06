@@ -494,7 +494,8 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-
+<a href="guest.php">Guest</a>
+</div>
 <!-- End Contact Section -->
 
 
