@@ -529,7 +529,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 
 	$sql = "INSERT INTO hgvalguna_myguest (name, email, website, comment, gender)
-  VALUES ('$name','$email','$website','$comment''$gender')";
+  VALUES ('$name','$email','$website','$comment','$gender')";
 	if ($conn->query($sql) === TRUE) {
 	echo "New record created successfully";
 	} else {
