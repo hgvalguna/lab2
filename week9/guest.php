@@ -31,7 +31,7 @@
 $servername = "localhost";
 $username = "webprogss211";
 $password = "webprogss211";
-$dbname = "hgvalguna_myguest";
+$dbname = "webprogss211";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
