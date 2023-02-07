@@ -29,8 +29,8 @@
 <h3>Guest Users:</h3>
 <?php
 $servername = "localhost";
-$username = "webprogss211";
-$password = "webprogss211";
+$username = "hgvalguna";
+$password = "valguna07";
 $dbname = "mydb";
 
 // Create connection
