@@ -528,8 +528,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 
-	$sql = "INSERT INTO hgvalguna_myguest (fname, email, website, comment, gender)
-  VALUES ('$fname','$email','$website','$comment''$gender')";
+	$sql = "INSERT INTO hgvalguna_myguest (name, email, website, comment, gender)
+  VALUES ('$name','$email','$website','$comment''$gender')";
 	if ($conn->query($sql) === TRUE) {
 	echo "New record created successfully";
 	} else {
