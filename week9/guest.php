@@ -25,6 +25,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+<h3>Guest Users:</h3>
 <?php
 $servername = "localhost";
 $username = "root";
