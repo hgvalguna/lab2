@@ -40,13 +40,13 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, fname, email, website, comment, gender  FROM hgvalguna_myguest";
+$sql = "SELECT id, name, email, website, comment, gender, reg_date FROM hgvalguna_myguest";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<br> id: ". $row["id"]. " - Name: ". $row["fname"]. " " . $row["email"] . "<br>";
+        echo "<br> id: ". $row["id"]. " - Name: ". $row["name"]. " - Email: " . $row["email"] . "<br>";
     }
 } else {
     echo "0 results";
