@@ -517,8 +517,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
 	$servername = "localhost";
-	$username = "root";
-	$password = "";
+	$username = "webprogss211";
+	$password = "webprogss211";
 	$dbname = "mydb";
 
 	// Create connection
