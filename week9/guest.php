@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>SIUUU</title>
@@ -25,7 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+</head>
 <h3>Guest Users:</h3>
 <?php
 $servername = "localhost";
