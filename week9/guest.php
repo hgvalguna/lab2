@@ -29,9 +29,9 @@
 </head>
 <h3>Guest Users:</h3>
 <?php
-$servername = "localhost";
+$servername = "192.168.150.213";
 $username = "webprogss211";
-$password = "webprogss211";
+$password = "fancyR!ce36";
 $dbname = "webprogss211";
 
 // Create connection
